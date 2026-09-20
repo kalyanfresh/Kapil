@@ -1,0 +1,16 @@
+{
+  "name": "Kalyan Fresh",
+  "short_name": "KalyanFresh",
+  "description": "Fresh Milk & Dairy Products in Phaltan",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#16a34a",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ]
+}
