@@ -1,1 +1,8 @@
-
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "in.kalyanfresh.app",
+        "sha256_cert_fingerprints": ["7D:CF:52:C4:23:04:43:C0:A5:B4:4D:6A:EB:0A:DC:EB:8F:86:E5:0B:D7:9E:D4:80:3E:99:D1:9D:9B:EB:A9:1B"]
+      }
+    }]
