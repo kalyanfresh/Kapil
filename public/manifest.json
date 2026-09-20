@@ -1,0 +1,9 @@
+{
+  "name": "Kalyan Fresh",
+  "short_name": "KalyanFresh",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#16a34a",
+  "icons": [{ "src": "/logo.svg", "sizes": "192x192", "type": "image/svg+xml" }]
+}
