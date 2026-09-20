@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="100%" height="100%">
+  <defs>
+    <!-- Metallic Gold Gradients -->
+    <linearGradient id="goldLinear" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCEBA0" />
+      <stop offset="25%" stop-color="#E2B755" />
+      <stop offset="50%" stop-color="#F5DF88" />
+      <stop offset="75%" stop-color="#C6952B" />
+      <stop offset="100%" stop-color="#9E721D" />
+    </linearGradient>
+
+    <linearGradient id="goldText" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FBF0B9" />
+      <stop offset="35%" stop-color="#E5BF5C" />
+      <stop offset="70%" stop-color="#C29226" />
+      <stop offset="100%" stop-color="#8F6715" />
+    </linearGradient>
+
+    <linearGradient id="goldRing" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C6952B" />
+      <stop offset="25%" stop-color="#FCEBA0" />
+      <stop offset="50%" stop-color="#D4A73E" />
+      <stop offset="75%" stop-color="#FDF2BC" />
+      <stop offset="100%" stop-color="#A57922" />
+    </linearGradient>
+
+    <filter id="subtleGlow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#8F6715" flood-opacity="0.25" />
+    </filter>
+
+    <!-- Single Leaf Pair for Wreath -->
+    <g id="wreathUnit">
+      <!-- Central stem segment -->
+      <path d="M0,0 C3,8 3,16 0,24" stroke="url(#goldRing)" stroke-width="1.6" fill="none" />
+      <!-- Left leaf -->
+      <path d="M0,6 C-9,4 -15,10 -18,17 C-13,19 -6,16 0,11 Z" fill="url(#goldLinear)" stroke="#9E721D" stroke-width="0.6" />
+      <!-- Right leaf -->
+      <path d="M0,12 C9,10 15,16 18,23 C13,25 6,22 0,17 Z" fill="url(#goldLinear)" stroke="#9E721D" stroke-width="0.6" />
+      <!-- Small berry/bud -->
+      <circle cx="-5" cy="18" r="1.8" fill="url(#goldLinear)" />
+      <circle cx="5" cy="10" r="1.8" fill="url(#goldLinear)" />
+    </g>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&amp;family=Great+Vibes&amp;display=swap');
+    .serif-text {
+      font-family: 'Cinzel', 'Times New Roman', 'Playfair Display', serif;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      fill: url(#goldText);
+      stroke: #8F6715;
+      stroke-width: 0.6;
+    }
+    .script-text {
+      font-family: 'Great Vibes', 'Allura', 'Brush Script MT', cursive;
+      font-weight: 400;
+      fill: url(#goldText);
+      stroke: #8F6715;
+      stroke-width: 0.5;
+    }
+  </style>
+
+  <!-- Clean Circular Base -->
+  <circle cx="500" cy="500" r="486" fill="#FFFFFF" />
+
+  <!-- Outermost Solid Gold Rim -->
+  <circle cx="500" cy="500" r="478" fill="none" stroke="url(#goldRing)" stroke-width="8" />
+
+  <!-- Outer Wreath Boundary Ring -->
+  <circle cx="500" cy="500" r="446" fill="none" stroke="url(#goldRing)" stroke-width="2.5" />
+
+  <!-- The Wreath Leaves (36 units distributed evenly in 360 deg) -->
+  <g transform="translate(500, 500)">
+    <!-- 48 repetitive leaf clusters rotated around the perimeter at radius 422 -->
+    <!-- Quadrant decorations -->
+    <!-- Leaves generated via SVG transforms -->
+    <g transform="rotate(0)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(7.5)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(15)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(22.5)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(30)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(37.5)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(45)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(52.5)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(60)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(67.5)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(75)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(82.5)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(90)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(97.5)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(105)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(112.5)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(120)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(127.5)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(135)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(142.5)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(150)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(157.5)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(165)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(172.5)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(180)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(187.5)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(195)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(202.5)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(210)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(217.5)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(225)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(232.5)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(240)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(247.5)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(255)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(262.5)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(270)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(277.5)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(285)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(292.5)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(300)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(307.5)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(315)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(322.5)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(330)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(337.5)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(345)"><use href="#wreathUnit" x="0" y="-432" /></g>
+    <g transform="rotate(352.5)"><use href="#wreathUnit" x="0" y="-432" /></g>
+  </g>
+
+  <!-- Inner Wreath Boundary Ring -->
+  <circle cx="500" cy="500" r="396" fill="none" stroke="url(#goldRing)" stroke-width="2.5" />
+
+  <!-- Innermost Fine Accent Ring -->
+  <circle cx="500" cy="500" r="384" fill="none" stroke="url(#goldRing)" stroke-width="1.2" />
+
+  <!-- TOP THREE GOLDEN FRUIT ICONS -->
+  <g id="topFruits" stroke="url(#goldLinear)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 1. STRAWBERRY (Left, ~x=410, y=285) -->
+    <g transform="translate(408, 280)">
+      <!-- Calyx / Leaves -->
+      <path d="M-8,-16 C-12,-21 -18,-19 -20,-16 C-18,-12 -12,-12 -8,-14" fill="url(#goldLinear)" stroke-width="0.8" />
+      <path d="M0,-16 C0,-23 5,-25 8,-23 C8,-18 4,-16 0,-14" fill="url(#goldLinear)" stroke-width="0.8" />
+      <path d="M8,-16 C12,-21 18,-19 20,-16 C18,-12 12,-12 8,-14" fill="url(#goldLinear)" stroke-width="0.8" />
+      <!-- Strawberry Body -->
+      <path d="M-18,-12 C-26,4 -18,22 0,32 C18,22 26,4 18,-12 C10,-15 -10,-15 -18,-12 Z" stroke-width="2.4" />
+      <!-- Strawberry Seed Pips -->
+      <circle cx="-8" cy="-2" r="1.2" fill="url(#goldLinear)" />
+      <circle cx="0" cy="-4" r="1.2" fill="url(#goldLinear)" />
+      <circle cx="8" cy="-2" r="1.2" fill="url(#goldLinear)" />
+      <circle cx="-12" cy="7" r="1.2" fill="url(#goldLinear)" />
+      <circle cx="-4" cy="8" r="1.2" fill="url(#goldLinear)" />
+      <circle cx="4" cy="8" r="1.2" fill="url(#goldLinear)" />
+      <circle cx="12" cy="7" r="1.2" fill="url(#goldLinear)" />
+      <circle cx="-7" cy="17" r="1.2" fill="url(#goldLinear)" />
+      <circle cx="0" cy="18" r="1.2" fill="url(#goldLinear)" />
+      <circle cx="7" cy="17" r="1.2" fill="url(#goldLinear)" />
+      <circle cx="0" cy="25" r="1.1" fill="url(#goldLinear)" />
+    </g>
+
+    <!-- 2. LEMON (Center, ~x=500, y=278) -->
+    <g transform="translate(500, 276) rotate(-8)">
+      <!-- Stem & Leaf -->
+      <path d="M0,-18 C2,-26 8,-28 12,-26 C12,-20 8,-17 3,-17" fill="url(#goldLinear)" stroke-width="0.8" />
+      <!-- Lemon Body with pointed nibs -->
+      <path d="M0,-17 C16,-17 25,-4 24,10 C23,24 13,31 0,35 C-3,36 -5,35 -6,33 C-18,28 -24,16 -23,3 C-22,-10 -14,-17 0,-17 Z" stroke-width="2.4" />
+      <!-- Inner texture crease -->
+      <path d="M-12,4 C-8,14 -2,22 4,26" stroke-width="1.2" stroke-dasharray="2 3" opacity="0.6" />
+    </g>
+
+    <!-- 3. CITRUS / BERRY WITH LEAF SPRIG (Right, ~x=592, y=282) -->
+    <g transform="translate(592, 280)">
+      <!-- Top Leaves -->
+      <path d="M-3,-16 C-7,-22 -14,-22 -16,-18 C-14,-14 -7,-14 -3,-14" fill="url(#goldLinear)" stroke-width="0.8" />
+      <path d="M3,-16 C8,-24 16,-23 18,-19 C15,-15 8,-14 3,-14" fill="url(#goldLinear)" stroke-width="0.8" />
+      <!-- Round Fruit -->
+      <circle cx="0" cy="6" r="21" stroke-width="2.4" />
+      <!-- Small crown/indentation -->
+      <circle cx="0" cy="-6" r="2.5" fill="url(#goldLinear)" />
+    </g>
+  </g>
+
+  <!-- BRAND NAME "KALYAN" in all-caps serif -->
+  <text x="500" y="492" text-anchor="middle" class="serif-text" font-size="118" filter="url(#subtleGlow)">
+    KALYAN
+  </text>
+
+  <!-- BRAND NAME "Fresh" in cursive script -->
+  <text x="490" y="708" text-anchor="middle" class="script-text" font-size="228" filter="url(#subtleGlow)">
+    Fresh
+  </text>
+
+  <!-- REGISTERED TRADEMARK "®" -->
+  <g transform="translate(732, 572)">
+    <circle cx="0" cy="0" r="16" fill="none" stroke="url(#goldRing)" stroke-width="2.2" />
+    <text x="0" y="5.5" text-anchor="middle" font-family="'Cinzel', serif" font-weight="700" font-size="16" fill="url(#goldText)">
+      R
+    </text>
+  </g>
+</svg>

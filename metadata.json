@@ -1,0 +1,6 @@
+{
+  "name": "Kalyan Fresh",
+  "description": "Premium fresh fruits and vegetables supply business connecting quality Indian produce with domestic wholesale and international export markets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
